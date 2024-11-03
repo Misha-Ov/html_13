@@ -1,0 +1,51 @@
+
+/* 
+svg {
+    outline: 1px solid black;
+} 
+*/
+
+.container {
+    width: fit-content;
+    margin: auto;
+}
+
+.square {
+  fill: #ffcc00;
+  stroke: #cc6600;
+  stroke-width: 5px;
+}
+
+.rectangle {
+  fill: #66ccff;
+  stroke: #003366;
+  stroke-width: 5px;
+}
+
+.circle {
+  fill: #ccff66;
+  stroke: #339900;
+  stroke-width: 5px;
+}
+
+.ellipse {
+  fill: #ff6699;
+  stroke: #990033;
+  stroke-width: 5px;
+}
+
+.animated-circle {
+  animation: colorChange 1s infinite alternate;
+}
+
+@keyframes colorChange {
+  0% {
+    fill: #ccff66;
+    stroke: #339900;
+  }
+
+  100% {
+    fill: #ff9966;
+    stroke: #993300;
+  }
+}
